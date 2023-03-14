@@ -775,6 +775,16 @@ video {
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
+.text-Paleblue {
+  --tw-text-opacity: 1;
+  color: hsl(221 100% 96% / var(--tw-text-opacity));
+}
+
+.text-Lightlavender {
+  --tw-text-opacity: 1;
+  color: hsl(241 100% 89% / var(--tw-text-opacity));
+}
+
 .ring-inset {
   --tw-ring-inset: inset;
 }
