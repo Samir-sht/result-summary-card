@@ -6,9 +6,6 @@ Tools used: HTML, CSS, TAILWIND CSS
 
 demo_link: https://summary-result-card.netlify.app/
 
-for reference: go to tailwindcss.com
+# Reference
 
-# To Run this project
-
-1. Open terminal in vscode
-2. Enter npx tailwindcss -i ./input.css -o ./dist/output.css --watch to run tailwindcss
+https://tailwindcss.com/
