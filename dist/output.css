@@ -760,6 +760,11 @@ video {
   color: hsl(166 100% 37% / var(--tw-text-opacity));
 }
 
+.text-Lightlavender {
+  --tw-text-opacity: 1;
+  color: hsl(241 100% 89% / var(--tw-text-opacity));
+}
+
 .text-Lightred {
   --tw-text-opacity: 1;
   color: hsl(0 100% 67% / var(--tw-text-opacity));
@@ -778,11 +783,6 @@ video {
 .text-Paleblue {
   --tw-text-opacity: 1;
   color: hsl(221 100% 96% / var(--tw-text-opacity));
-}
-
-.text-Lightlavender {
-  --tw-text-opacity: 1;
-  color: hsl(241 100% 89% / var(--tw-text-opacity));
 }
 
 .ring-inset {
