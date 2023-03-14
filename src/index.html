@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../dist/output.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="font-Hanken" style="height: 100vh">
+    <div class="container mx-auto h-full">
+      <div class="grid grid-cols-12 items-center h-full">
+        <div class="col-span-4 col-start-3">
+          <div
+            class="relative content-left bg-gradient-to-b from-Lightroyalblue to-Lightslateblue flex flex-col items-center justify-center p-10 gap-8 sm:rounded-b-[32px] md:rounded-[32px]"
+          >
+            <h4 class="text-4xl font-bold mb-1 text-White">Your Result</h4>
+            <div
+              class="bg-gradient-to-b from-Violetblue to-Persianblue grid place-items-center w-[12rem] py-8 rounded-full ring-inset"
+            >
+              <p class="text-7xl font-bold text-White text-center mb-4">76</p>
+              <p class="text-2xl text-Darkgrayblue font-medium">of 100</p>
+            </div>
+            <div>
+              <h3 class="text-4xl text-White text-center font-bold mb-2">
+                Great
+              </h3>
+              <p
+                class="text-xl font-normal text-Darkgrayblue mx-auto md:text-center md:text-Lightlavender"
+              >
+                You scored higher than 65% of the people who have taken these
+                tests.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-4">
+          <div class="content-right p-10">
+            <h3 class="text-3xl mb-2 font-semibold">Summary</h3>
+            <div
+              class="first_card mb-4 flex justify-between bg-accentlightred align-middle text-xl p-4 rounded-md"
+            >
+              <div class="flex items-center gap-2">
+                <img src="../assets/images/icon-reaction.svg" alt="Reaction" />
+                <span class="font-bold text-Lightred">Reaction</span>
+              </div>
+
+              <span class="font-medium">
+                <strong>80 </strong
+                ><span class="text-Darkgrayblue">/ 100</span></span
+              >
+            </div>
+            <div
+              class="second_card mb-4 flex justify-between align-middle text-xl p-4 rounded-md bg-accentorangeyyellow"
+            >
+              <div class="flex items-center gap-2">
+                <img src="../assets/images/icon-memory.svg" alt="Memory" />
+                <span class="font-medium text-Orangeyyellow">Memory</span>
+              </div>
+
+              <span class="font-medium">
+                <strong>92</strong
+                ><span class="text-Darkgrayblue"> / 100</span></span
+              >
+            </div>
+            <div
+              class="third_card mb-4 flex justify-between align-middle text-xl p-4 rounded-md bg-accentgreenteal"
+            >
+              <div class="flex items-center gap-2">
+                <img src="../assets/images/icon-verbal.svg" alt="Verbal" />
+                <span class="font-medium text-Greenteal">Verbal</span>
+              </div>
+              <span class="font-medium">
+                <strong>61</strong><span class="text-Darkgrayblue"> / 100</span>
+              </span>
+            </div>
+            <div
+              class="fourth_card mb-4 flex justify-between align-middle text-xl p-4 rounded-md bg-accentcobaltblue"
+            >
+              <div class="flex items-center gap-2">
+                <img src="../assets/images/icon-visual.svg" alt="Visual" />
+                <span class="font-medium text-Cobaltblue">Visual</span>
+              </div>
+
+              <span class="font-medium">
+                <strong>72 </strong
+                ><span class="text-Darkgrayblue">/ 100</span></span
+              >
+            </div>
+
+            <button
+              type="submit"
+              class="text-lg text-center text-White rounded-full bg-Darkgrayblue w-full p-4"
+            >
+              Continue
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
